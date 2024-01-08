@@ -1,0 +1,53 @@
+.wc-sub-box-next-payment-modal .modal__container {
+    text-align: center;
+    width: 100%;
+    max-width: 380px;
+}
+.wc-sub-box-next-payment-modal .modal__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wc-sub-box-next-payment-modal .modal__title {
+    color: inherit;
+}
+.wc-sub-box-next-payment-modal .modal__close {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.wc-sub-box-next-payment-modal .modal__content {
+    border-block: 1px solid #ccc;
+    margin-block: 1rem;
+    padding-block: 1rem;
+}
+.wc-sub-box-next-payment-modal .modal__content p {
+    padding-top: 0;
+    margin-top: 0;
+}
+.wc-sub-box-next-payment-modal .modal__content p:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.wc-sub-box-next-payment-modal .modal__btn {
+    font-size: 1rem;
+    padding: 0.55rem 1.2rem;
+}
+.wc-sub-box-next-payment-modal .modal_body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wc-sub-box-next-payment-modal #datepicker {
+    padding: 6px 15px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+} /*# sourceMappingURL=wc-sub-box-next-payment-popup.min.css.map */
